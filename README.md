@@ -6,7 +6,7 @@ KUET BUS Data Scrapper from [KUET Website](http://www.kuet.ac.bd/index.php/welco
 
 - Get Important Phone Numbers
 
-- Offline Scrapping , So scrapping is possible even in KUET site is down
+- Offline Scrapping added, So scrapping is possible even in KUET site is down
  
 ## Playground
 
