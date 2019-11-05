@@ -1,0 +1,698 @@
+/*
+created by Md. Asaf-uddowla Golap
+		   asaf.golap@kuet.ac.bd
+
+*/
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+p{
+	text-align: justify;
+}
+li{
+	list-style: none;
+}
+body{
+	background: #fff;
+	font-family: 'Verdana', sans-serif;
+	color:#000;
+}
+
+/* slider */
+
+.slider{
+
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+.carousel-caption{
+	float: center;
+
+}
+
+.carousel-indicators{
+	bottom: 0;
+}
+
+.carousel-caption{
+	bottom: 0;
+}
+
+.carousel-caption p{
+
+	background: rgba(128,124,122,.6);
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #CCFF66;
+    font-size: 14px;
+    display: inline-block;
+    font-family: "Varela",sans-serif;
+    padding: 3px 8px;
+    text-decoration: none;
+	float: center;
+	text-align: center;
+}
+
+.headermain{
+	background: #007b5e; /*#11A62C; /*007F3D /*009688*/
+	margin: 0px;
+}
+.headermain img{
+	height: 90px;
+	margin-bottom: 10px;
+	margin-top: -1px;
+}
+.headermain h1{
+	color: #fbfbfb;
+	text-align: center;
+}
+.headermain h2{
+	color: #fbfbfb;
+	text-align: center;
+	margin-top: 15px;
+}
+.language{
+	float: right;
+	margin-top: 1px;
+	border-radius: 0px;
+	margin-bottom: 15px;
+}
+.search{
+	margin-top: 15px;
+}
+.navbar-inverse{
+	border-radius: 0px;
+	border:0px;
+}
+
+.icon-bar{
+	color: #fff;
+}
+.thumbnail{
+}
+
+/* added by golap */
+
+.faculty_n_institute{
+	margin:20px 0 10px 0;
+}
+
+#navbar-nav li a{
+	font-weight: normal;
+	color:#000;	
+}
+
+#mli{
+	font-family: sans-serif;
+	color: #fff !important;
+	text-shadow: 2px 2px 5px #000;
+	/*font-weight: bold !important;
+	/*text-transform: uppercase;*/
+}
+
+#mli:hover{
+	color: #fff !important;
+}
+
+#lnk a{
+	color:#3481B8 !important;
+	font-size: 12px !important;
+	/*font-weight: bold !important;*/
+}
+
+
+#lnk:hover{
+	/*background: #EEEEEE !important;*/
+}
+
+#lnk:hover a{
+	color: #156748 !important;
+}
+
+
+#hdr{
+	color:#C11D4A;
+	margin-top:10px;
+	font-size: 13px;
+}
+
+#fac a{
+	color:#15660B;
+	font-weight:bold;
+	font-family:sans-serif;
+	/*font-family: "Times New Roman", Times, serif;*/
+	font-size:14px;
+
+}
+
+#fac{
+	/*border: 2px solid #15660B;*/
+	background: rgb(230,240,250);/*#DADFD5; /*#67BB7F;*/
+	padding: 8px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+#fac:hover{
+	background: #1E8440;
+
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+}
+
+#fac:hover a{
+	color: #fff;
+	text-shadow: 2px 2px 5px #000;
+}
+
+#ins a{
+	color:#194682;
+	font-weight:bold;
+	font-family:sans-serif;
+	/*font-family: "Times New Roman", Times, serif;*/
+	font-size:14px;
+
+}
+
+#ins{
+	/*border: 2px solid #194682;*/
+	background: rgb(230,240,250);/*#DADFD5;/*#69A0FD;*/
+	padding: 8px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: right;
+}
+
+#ins:hover{
+	background: #194682;
+	-webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+}
+
+#ins:hover a{
+	color: #fff;
+	text-shadow: 2px 2px 5px #000;
+}
+
+.faculty_n_institute li a{
+	text-shadow: 2px 2px 5px #FFF;
+}
+
+
+.welcome{
+	margin-top: 0px;
+}
+/*.welcome h3*/
+
+
+.date_notice{
+	display: block;
+	float: left;
+	margin:2px 2px 2px 2px;
+	text-align: center;
+	background: #C11D4A;
+	border-radius: 5px;
+	padding: 3px 6px;
+	color: #fff;
+}
+
+.date_news{
+	display: block;
+	float: left;
+	margin:2px 2px 2px 2px;
+	text-align: center;
+	background: #156748;
+	border-radius: 5px;
+	padding: 3px 6px;
+	color: #fff;
+}
+
+.date_event{
+	display: block;
+	float: left;
+	margin:2px 2px 2px 2px;
+	text-align: center;
+	background: #156748;
+	border-radius: 5px;
+	padding: 3px 6px;
+	color: #fff;
+}
+
+.date_news h6, .date_event h6, .date_notice h6{
+	margin: 5px 0px 5px 0px;
+}
+
+.date_news hr, .date_event hr, .date_notice hr{
+	margin: 0;
+}
+
+.more{
+	float: right;
+	margin-top:10px;
+	font-size: 16px;
+}
+
+.event{
+	margin: 20px 0px 10px 0px;
+}
+.event h3, .counter h3, .faculty_n_institute h3{
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 3px;
+}
+
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 8px;
+  text-align: center;
+}
+
+#aag:hover .overlay {
+  opacity: 1;
+}
+
+.item h4{
+	text-align: center;
+	color: #fbfbfb;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 15px;
+}
+.item h4 a{
+	color:#fbfbfb;
+}
+.item h4 a:hover{
+	color: #11a62c;
+}
+
+.news h3{
+	border-bottom: 2px solid #11a62c;
+	margin-bottom: 5px;
+	font-family: monospace;
+	text-transform: uppercase;
+}
+.viewall{
+	float: right;
+	font-family: monospace;
+	margin: 10px 0px;
+	font-size: 20px;
+}
+
+.counter{
+	margin: 10px 0 10px 0;
+	position: relative;
+}
+.counter .card{
+	border-radius: 0px;
+	background: #249788;
+	padding: 10px;
+	border: 0px;
+}
+.counter h6{
+	text-align: center;
+	color: #fbfbfb;
+	text-transform: uppercase;
+	font-size: 15px;
+	text-shadow: 2px 2px 5px #000;
+}
+
+.counter h5{
+	text-align: center;
+	color: #fbfbfb;
+	text-transform: uppercase;
+	font-size: 20px;
+	text-shadow: 2px 2px 5px #000;
+}
+.counter a{
+	text-shadow: 2px 2px 5px #000;
+}
+
+.map{
+	width:100%;
+}
+/* card */
+.event .card{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card a:hover{
+	color:red;
+	font-weight: bold;
+}
+.contact #more:hover{
+	color:red;
+}
+
+.card p{
+	min-height: 100px;
+	font-size: 14px;
+}
+.event .card{
+	background: rgb(230,240,250);
+}
+.card-block{
+	padding:15px;
+}
+.event .card label{
+	position: absolute;
+	background-color: #00A651;
+	color: #fff;
+	padding: 5px 10px;
+	top:122px;
+}
+
+.event .card h5{
+	font-weight: bold;
+}
+
+.event .card h5, .card p{
+	color:#000;
+}
+
+.borderbottomLR:after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px #00A651;  
+  transform: scaleX(0);  
+  transition: transform 500ms ease-in-out;
+  transform-origin:100% 50%
+}
+.borderbottomLR:hover:after { 
+  transform: scaleX(1);
+  transform-origin:0 50%;
+}
+
+/* footer */
+
+
+#footer {
+    background: #007b5e !important;
+    padding: 20px 10px 10px 10px;
+}
+#footer h4{
+    border-bottom: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 2px 0;
+}
+#footer ul.social li a i {
+    margin-right: 3px;
+	font-size:25px;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 2px 0;
+}
+#footer ul.quick-links li:hover{
+	padding: 2px 0;
+
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+.footer-bottom{
+  background: #156748;
+  margin-bottom: -40px;
+}
+.footer-bottom h5{
+  color: #e7d5d5;
+  border-bottom: 2px solid #e7d5d5;
+  text-align: center;
+}
+.footer-bottom h4{
+  color: #e7d5d5;
+}
+.footer-bottom h4 a{
+  color: #e7d5d5;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+/*END */
+
+
+/* Responsive */
+
+@media only screen and (max-width : 768px){
+	.title{
+		font-size: 14px;
+	}
+	.headertop h4{
+		margin: 5px auto;
+		font-size: 16px;
+	}
+	.headermain img{
+		height: 80px;
+	}
+	.headermain h1{
+		font-size: 20px;
+		margin: 5px 0px;
+	}
+	.header h2{
+		font-size: 20px;
+		margin: 5px 0px;
+	}
+	#lnk a{
+	color:#fff !important;
+	}
+	.language{
+		font-size: 10px;
+		padding: 3px;
+	}
+	.welcome{
+		margin-top: -10px;
+	}
+	.welcome h3{
+		font-size: 12px;
+	}
+	.welcome p{
+		font-size: 11px;
+	}
+	.media h4{
+		font-size: 12px;
+	}
+
+	.counter h5{
+		font-size: 15px;
+	}
+
+	.event h3, .counter h3, .faculty_n_institute h3{
+	font-size: 16px;
+	}
+	#ins a, #fac a{
+		font-size: 12px;
+	}
+
+	.footer{
+		padding: 10px 0px;
+	}
+	.footer h3{
+		font-size: 14px;
+	}
+	.footer li a{
+		font-size: 12px;
+	}
+	.map{
+		width:100%;
+		height: 140px;
+	}
+	.footer h4{
+		font-size: 13px;
+	}
+
+}
+
+@media only screen and (max-width : 500px){
+	.title{
+		font-size: 14px;
+	}
+	.headertop h4{
+		margin: 5px auto;
+		font-size: 16px;
+	}
+	.headermain img{
+		height: 70px;
+	}
+	.headermain h1{
+		font-size: 20px;
+		margin: 5px 0px;
+	}
+	.header h2{
+		font-size: 20px;
+		margin: 5px 0px;
+	}
+	#lnk a{
+	color:#fff !important;
+	}
+	.language{
+		/*display: none;*/
+	}
+	.slide{
+		/*display: none;*/
+	}
+	.counter h5{
+		font-size: 14px;
+	}
+	.welcome{
+		margin-top: -10px;
+	}
+	.welcome h3{
+		font-size: 12px;
+	}
+	.welcome p{
+		font-size: 11px;
+	}
+	.media h4{
+		font-size: 12px;
+	}
+
+	.event h3, .counter h3, .faculty_n_institute h3{
+	font-size: 16px;
+	}
+	#ins a, #fac a{
+		font-size: 12px;
+	}
+	.footer{
+		padding: 10px 0px;
+	}
+	.footer h3{
+		font-size: 14px;
+	}
+	.footer li a{
+		font-size: 12px;
+	}
+	.footer h4{
+		font-size: 13px;
+	}
+	.fff{
+		display: block;
+	}
+}
+@media only screen and (max-width : 320px){
+	.title{
+		font-size: 14px;
+	}
+	.headertop h4{
+		margin: 5px auto;
+		font-size: 14px;
+	}
+	.headermain img{
+		height: 60px;
+	}
+	.headermain h1{
+		font-size: 12px;
+		margin: 5px 0px;
+	}
+	.header h2{
+		font-size: 12px;
+		margin: 5px 0px;
+	}
+	#lnk a{
+	color:#fff !important;
+	}
+	.language{
+		/*display: none;*/
+	}
+	.slide{
+		/*display: none;*/
+	}
+	.welcome{
+		margin-top: -10px;
+	}
+	.welcome h3{
+		font-size: 12px;
+	}
+	.welcome p{
+		font-size: 11px;
+	}
+	.media h4{
+		font-size: 12px;
+	}
+	.counter h5{
+		font-size: 13px;
+	}
+	
+	.event h3, .counter h3, .faculty_n_institute h3{
+	font-size: 16px;
+	}
+	#ins a, #fac a{
+		font-size: 12px;
+	}
+	.footer{
+		padding: 10px 0px;
+	}
+	.footer h3{
+		font-size: 14px;
+	}
+	.footer li a{
+		font-size: 12px;
+	}
+	.footer h4{
+		font-size: 13px;
+	}
+	.fff{
+		display: block;
+	}
+	.map{
+		width: 100%;
+		height: 140px;
+	}
+}
+
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+
+body {-webkit-print-color-adjust: exact;}
+}

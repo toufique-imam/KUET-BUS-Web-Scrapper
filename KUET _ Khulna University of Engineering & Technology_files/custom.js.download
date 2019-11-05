@@ -1,0 +1,103 @@
+$(document).ready(function() {
+  var owl = $('#ev');
+  owl.owlCarousel({
+navigation : true,
+    slideSpeed : 500,
+    paginationSpeed : 300,
+    items: 5,
+    loop: true,
+    nav:true,
+    margin: 10,
+    autoplay: true,
+    goToFirst: true,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
+    responsiveClass: true,
+    responsive: {
+        0: {
+        items: 1
+        },
+        800: {
+        items: 3
+        },
+        1200: {
+        items: 5,
+        loop: false,
+        margin: 15
+        }
+    }
+  });
+
+  
+  $('.play').on('click', function() {
+    owl.trigger('play.owl.autoplay', [1000])
+  })
+  $('.stop').on('click', function() {
+    owl.trigger('stop.owl.autoplay')
+  })
+})
+
+
+$('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 2000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
+
+
+$(document).ready(function() {
+  var owl = $('#aag');
+  owl.owlCarousel({
+    slideSpeed : 500,
+    paginationSpeed : 300,
+    items: 8,
+    loop: true,
+    nav:true,
+    margin: 5,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
+    responsiveClass: true,
+    responsive: {
+        0: {
+        items: 1
+        },
+        800: {
+        items: 4
+        },
+        1200: {
+        items: 8,
+        loop: false,
+        margin: 10
+        }
+    }
+  });
+
+  
+  $('.play').on('click', function() {
+    owl.trigger('play.owl.autoplay', [1000])
+  })
+  $('.stop').on('click', function() {
+    owl.trigger('stop.owl.autoplay')
+  })
+})
+
+
+$('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 10000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
+

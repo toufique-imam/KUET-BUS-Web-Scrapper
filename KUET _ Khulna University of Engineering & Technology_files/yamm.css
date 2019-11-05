@@ -1,0 +1,107 @@
+/*!
+ * Yamm!3 - Yet another megamenu for Bootstrap 3
+ * http://geedmo.github.com/yamm3
+ * 
+ * @geedmo - Licensed under the MIT license
+ */
+.yamm .nav,
+.yamm .collapse,
+.yamm .dropup,
+.yamm .dropdown {
+  position: static;
+}
+.yamm .container {
+  position: static;
+}
+.yamm .dropdown-menu {
+  left: auto;
+}
+.yamm .yamm-content {
+  padding: 0;
+}
+.yamm .dropdown.yamm-fw .dropdown-menu {
+  left: 0;
+  right: 0;
+}
+
+
+/* create by golap */
+.nav{
+	
+	padding:0;
+	margin: 0;
+}
+
+.navbar{
+	margin:0;
+	padding:0;
+	z-index: 5;
+}
+
+.dropdown-toggle:active, .open .dropdown-toggle {
+    background:#007b5e !important; 
+    color:#fff !important;
+}
+
+.dropdown-toggle:active a, .open .dropdown-toggle a{ 
+    color:#fff !important; 
+}
+
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus{
+  background-color: #007b5e;
+  color: #fff !important;
+  /*border-bottom: 2px solid #ff0 !important;*/
+}
+
+#navbar-nav li{
+	font-weight: bold;
+}
+
+
+/* end */
+
+.yamm .yamm-content ul{
+	padding: 0 0 0 20px;
+	margin: 0;
+}
+
+.yamm .yamm-content ul li{
+	padding: 0;
+	margin: 0;
+}
+
+.yamm .yamm-content ul li a{
+	padding: 0;
+	margin: 0;
+}
+
+.yamm .yamm-content ul li p{
+	padding: 0;
+	margin: 0;
+}
+
+.yamm .yamm-content  ul li {
+     padding-left: 1.0em;
+     text-indent:-0.9em;
+}
+
+.navbar.navbar-default {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.list-unstyled,
+.list-unstyled ul { 
+  min-width: 228px;
+  padding: 0;
+}
+
+
+/* hover 
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}*/
