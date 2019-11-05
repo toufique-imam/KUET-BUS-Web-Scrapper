@@ -58,7 +58,6 @@ pyasn1==0.4.5
 pycodestyle==2.5.0
 pycparser==2.19
 Pygments==2.4.2
-pyHook==1.5.1
 PyInstaller==3.5
 pylint==2.3.1
 PyMouse==1.0
