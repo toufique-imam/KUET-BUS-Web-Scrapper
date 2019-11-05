@@ -2,3 +2,6 @@ flask
 flask-restful
 gunicorn
 bs4
+requests
+json
+re
