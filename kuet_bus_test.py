@@ -38,7 +38,9 @@ def get_data():
         header_now.clear()
         #get header names
         for j in nowhead:
-            header_now.append(j.text.replace(" ",""))
+            strtmp = j.text.replace("&","")
+            strtmp = strtmp.replace(" ","")
+            header_now.append(strtmp)
         #get table data
         table_row = table_data[i].findAll('tr') #all row in this table
         for j in table_row:
