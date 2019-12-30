@@ -1,0 +1,381 @@
+[
+    {
+        "bus": [
+            {
+                "TripName": "Normal-1",
+                "StartingTimefromCampus": "6:30 AM",
+                "StartingSpotTime": "Rupsha, 7:20 AM",
+                "Remarks": "Will back via Royalmore & Ferighat",
+                "Section": "Morning"
+            },
+            {
+                "TripName": "Normal-1",
+                "StartingTimefromCampus": "6:45 AM",
+                "StartingSpotTime": "Moylapota, 7:25 AM",
+                "Remarks": "Will back via Shibbari - Sonadangha",
+                "Section": "Morning"
+            },
+            {
+                "TripName": "Normal-1",
+                "StartingTimefromCampus": "7:00 AM",
+                "StartingSpotTime": "Rupsha, 8:00 AM",
+                "Remarks": "Will round residential area (7:00 AM)",
+                "Section": "Morning"
+            },
+            {
+                "TripName": "Special-1",
+                "StartingTimefromCampus": "7:15 AM",
+                "StartingSpotTime": "Shibbari, 8:05 AM",
+                "Remarks": "Will back via Nirala-Gollamari-Sonadanga",
+                "Section": "Morning"
+            },
+            {
+                "TripName": "Special-1",
+                "StartingTimefromCampus": "7:15 AM",
+                "StartingSpotTime": "Rupsha, 8:05 AM",
+                "Remarks": "Will Back directly",
+                "Section": "Morning"
+            },
+            {
+                "TripName": "Normal-1",
+                "StartingTimefromCampus": "7:30 AM",
+                "StartingSpotTime": "Royal More, 8:10 AM",
+                "Remarks": "Will round residential area (7:30 AM)",
+                "Section": "Morning"
+            },
+            {
+                "TripName": "Normal-1",
+                "StartingTimefromCampus": "7:20 AM",
+                "StartingSpotTime": "Moylapota, 8:05 AM",
+                "Remarks": "Will back via Nirala-Gollamari-Sonadanga",
+                "Section": "Morning"
+            },
+            {
+                "TripName": "Special-1(AC)",
+                "StartingTimefromCampus": "7:20 AM",
+                "StartingSpotTime": "Rupsha, 8:00 AM",
+                "Remarks": "Will Back via Shibbari-College Mor-Boira Bazar-Nevi College-Goyalkhali-Notun Rasta",
+                "Section": "Morning"
+            },
+            {
+                "TripName": "Normal-1",
+                "StartingTimefromCampus": "01:15 PM",
+                "StartingSpotTime": "Ferighat, 2:00 PM",
+                "Remarks": "Will go and back directly",
+                "Section": "Noon"
+            },
+            {
+                "TripName": "Normal-1",
+                "StartingTimefromCampus": "01:15 PM",
+                "StartingSpotTime": "Sonadangha, 2:05 PM",
+                "Remarks": "Will go and back via Notun Rasta",
+                "Section": "Noon"
+            },
+            {
+                "TripName": "Normal-1",
+                "StartingTimefromCampus": "01:15 PM",
+                "StartingSpotTime": "Rupsha, 2:00 PM",
+                "Remarks": "Will go and back directly",
+                "Section": "Noon"
+            },
+            {
+                "TripName": "Special-1",
+                "StartingTimefromCampus": "01:15 PM",
+                "StartingSpotTime": "Rupsha, 2:20 PM",
+                "Remarks": "MinaBazar 2:30 PM",
+                "Section": "Noon"
+            },
+            {
+                "TripName": "Special-1",
+                "StartingTimefromCampus": "01:15 PM",
+                "StartingSpotTime": "Sonadangha, 2:30 PM",
+                "Remarks": "Will go and back via Notun Rasta",
+                "Section": "Noon"
+            },
+            {
+                "TripName": "Special-1 (AC)",
+                "StartingTimefromCampus": "01:15 PM",
+                "StartingSpotTime": "Rupsha, 2:20 PM",
+                "Remarks": "Back via Notun Rasta-Goyalkhali-Nevi College-Boira Bazar-College Mor-Shibbari",
+                "Section": "Noon"
+            },
+            {
+                "TripName": "Special-1",
+                "StartingTimefromCampus": "4:00 PM",
+                "StartingSpotTime": "4:30 PM",
+                "Remarks": "Will round residential area (3:55 PM)",
+                "Section": "Afternoon"
+            },
+            {
+                "TripName": "Normal-1",
+                "StartingTimefromCampus": "4:00 PM",
+                "StartingSpotTime": "4:40 PM",
+                "Remarks": "Direct to Ferighat",
+                "Section": "Afternoon"
+            },
+            {
+                "TripName": "Normal-1",
+                "StartingTimefromCampus": "4:00 PM",
+                "StartingSpotTime": "4:30 PM",
+                "Remarks": "Direct to Ferighat",
+                "Section": "Afternoon"
+            },
+            {
+                "TripName": "Normal-1",
+                "StartingTimefromCampus": "5:15 PM",
+                "StartingSpotTime": "7:30 PM",
+                "Remarks": "Direct to Ferighat",
+                "Section": "Afternoon"
+            },
+            {
+                "TripName": "Normal-2",
+                "StartingTimefromCampus": "5:05 PM",
+                "StartingSpotTime": "7:00 PM / 7:30 PM",
+                "Remarks": "1 to Rupsha and 1 to Ferighat Directly",
+                "Section": "Afternoon"
+            },
+            {
+                "TripName": "Normal-1",
+                "StartingTimefromCampus": "5:05 PM",
+                "StartingSpotTime": "7:00 PM",
+                "Remarks": "via Nirala, Gollamari, Moylapota, Ferighat",
+                "Section": "Afternoon"
+            },
+            {
+                "TripName": "Special-1",
+                "StartingTimefromCampus": "5:05 PM",
+                "StartingSpotTime": "6:30 PM",
+                "Remarks": "Via Sonadanga to Dakbangla",
+                "Section": "Afternoon"
+            },
+            {
+                "TripName": "Special-1",
+                "StartingTimefromCampus": "5:05 PM",
+                "StartingSpotTime": "7:40 PM",
+                "Remarks": "via Minabazar, Moylapota to Rupsha",
+                "Section": "Afternoon"
+            },
+            {
+                "TripName": "Special-1",
+                "StartingTimefromCampus": "5:05 PM",
+                "StartingSpotTime": "6:30 PM",
+                "Remarks": "Direct to Ferighat",
+                "Section": "Afternoon"
+            },
+            {
+                "TripName": "Special-1(AC)",
+                "StartingTimefromCampus": "5:05 PM",
+                "StartingSpotTime": "6:30 PM",
+                "Remarks": "Back via Notun Rasta-Goyalkhali-Nevi College-Boira Bazar-College Mor-Shibbari",
+                "Section": "Afternoon"
+            },
+            {
+                "TripName": "Normal-1",
+                "StartingTimefromCampus": "7:00 PM",
+                "StartingSpotTime": "7:45 PM",
+                "Remarks": "Will depart from Auditorium",
+                "Section": "Night"
+            },
+            {
+                "TripName": "Normal-1",
+                "StartingTimefromCampus": "7:00 PM",
+                "StartingSpotTime": "8:45 PM",
+                "Remarks": "Will depart from Amar Ekushey Hall",
+                "Section": "Night"
+            },
+            {
+                "TripName": "Normal-1",
+                "StartingTimefromCampus": "7:00 PM",
+                "StartingSpotTime": "8:45 PM",
+                "Remarks": "Will round residential area (via Sonadanga)",
+                "Section": "Night"
+            },
+            {
+                "TripName": "Normal-1",
+                "StartingTimefromCampus": "8:10 PM",
+                "StartingSpotTime": "9:15 PM",
+                "Remarks": "Will round Auditorium",
+                "Section": "Night"
+            },
+            {
+                "TripName": "Normal-1",
+                "StartingTimefromCampus": "8:10 PM",
+                "StartingSpotTime": "9:15 PM",
+                "Remarks": "Will round residential area",
+                "Section": "Night"
+            },
+            {
+                "TripName": "Normal-1",
+                "StartingTimefromCampus": "9:30 AM",
+                "StartingSpotTime": "Ferighat, 12:30 PM",
+                "Remarks": "Will go and back via Sonadangha",
+                "Section": "Saturday"
+            },
+            {
+                "TripName": "Normal-1",
+                "StartingTimefromCampus": "9:30 AM",
+                "StartingSpotTime": "Ferighat, 12:30 PM",
+                "Remarks": "Will go and back Directly",
+                "Section": "Saturday"
+            },
+            {
+                "TripName": "Special-1",
+                "StartingTimefromCampus": "9:30 AM",
+                "StartingSpotTime": "Ferighat, 12:30 PM",
+                "Remarks": "Will round residential area (9:30 AM)",
+                "Section": "Saturday"
+            },
+            {
+                "TripName": "Special-1 (AC)",
+                "StartingTimefromCampus": "9:30 AM",
+                "StartingSpotTime": "Ferighat, 12:30 PM",
+                "Remarks": "Will go and back Directly",
+                "Section": "Saturday"
+            }
+        ]
+    },
+    {
+        "phone": [
+            {
+                "NameDesignation": "\\nDr. Mihir Ranjan Halder Chairman",
+                "MobileNo.": "01714087353",
+                "Section": "Mobile"
+            },
+            {
+                "NameDesignation": "Engr. Md. Ruhul Amin  Transport Officer",
+                "MobileNo.": "01864007632",
+                "Section": "Mobile"
+            },
+            {
+                "NameDesignation": "Md. Robiul IslamSenior Auto Mechanic",
+                "MobileNo.": "01714744198",
+                "Section": "Mobile"
+            },
+            {
+                "NameDesignation": "Md. Taiabur RahmanDriver",
+                "MobileNo.": "01714087444",
+                "Section": "Mobile"
+            },
+            {
+                "NameDesignation": "Md. Mirazul IslamDriver",
+                "MobileNo.": "01714087270",
+                "Section": "Mobile"
+            },
+            {
+                "NameDesignation": "Md. Golam ZakariaDriver",
+                "MobileNo.": "01917833269",
+                "Section": "Mobile"
+            },
+            {
+                "NameDesignation": "Md. Zasim UddinDriver",
+                "MobileNo.": "01916406870",
+                "Section": "Mobile"
+            },
+            {
+                "NameDesignation": "Md. Shamim ShikdarDriver",
+                "MobileNo.": "01718906212",
+                "Section": "Mobile"
+            },
+            {
+                "NameDesignation": "Md. babul AkhterDriver",
+                "MobileNo.": "01750141615",
+                "Section": "Mobile"
+            },
+            {
+                "NameDesignation": "Md. FerdousDriver",
+                "MobileNo.": "01715509713",
+                "Section": "Mobile"
+            },
+            {
+                "NameDesignation": "Md. Masud MollaDriver",
+                "MobileNo.": "01913124419",
+                "Section": "Mobile"
+            },
+            {
+                "NameDesignation": "Md. Zia RahmanDriver",
+                "MobileNo.": "01622843323",
+                "Section": "Mobile"
+            },
+            {
+                "NameDesignation": "Md. Hachan MuradDriver",
+                "MobileNo.": "01715714715",
+                "Section": "Mobile"
+            },
+            {
+                "NameDesignation": "Md. Helal MunsurDriver",
+                "MobileNo.": "01781343391",
+                "Section": "Mobile"
+            },
+            {
+                "NameDesignation": "Md. Abu BakkrDriver",
+                "MobileNo.": "01712773187",
+                "Section": "Mobile"
+            },
+            {
+                "NameDesignation": "Md. Sohel RanaDriver",
+                "MobileNo.": "01739230233",
+                "Section": "Mobile"
+            },
+            {
+                "NameDesignation": "Md. Alam MollaDriver",
+                "MobileNo.": "01717116738",
+                "Section": "Mobile"
+            },
+            {
+                "NameDesignation": "Sri Ratan Kumar PaulDriver",
+                "MobileNo.": "01721048085",
+                "Section": "Mobile"
+            },
+            {
+                "NameDesignation": "Md. Ebrahim SheikhDriver",
+                "MobileNo.": "01959816266",
+                "Section": "Mobile"
+            },
+            {
+                "NameDesignation": "Md. Nayan KhanHelper",
+                "MobileNo.": "01912905626",
+                "Section": "Mobile"
+            },
+            {
+                "NameDesignation": "Md. Masud SheikhHelper",
+                "MobileNo.": "01718802584",
+                "Section": "Mobile"
+            },
+            {
+                "NameDesignation": "Md. Imran KhanMechanic",
+                "MobileNo.": "01670520416",
+                "Section": "Mobile"
+            },
+            {
+                "NameDesignation": "Md. Moin SheikhHelper",
+                "MobileNo.": "01929883688",
+                "Section": "Mobile"
+            },
+            {
+                "NameDesignation": "Md. Firoz AlamHelper",
+                "MobileNo.": "01859240259",
+                "Section": "Mobile"
+            },
+            {
+                "NameDesignation": "Md. Shamim SheikhHelper",
+                "MobileNo.": "01839596215",
+                "Section": "Mobile"
+            },
+            {
+                "NameDesignation": "Md. Rubel SheikhHelper",
+                "MobileNo.": "01916052870",
+                "Section": "Mobile"
+            },
+            {
+                "NameDesignation": "Md. Abu DaudHelper",
+                "MobileNo.": "01824121945",
+                "Section": "Mobile"
+            },
+            {
+                "NameDesignation": "Md. Mosharif HossainHelper",
+                "MobileNo.": "01914870720",
+                "Section": "Mobile"
+            }
+        ]
+    }
+]

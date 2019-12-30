@@ -33,7 +33,10 @@ def get_data():
     vehichle_arr = []
     phone_num_arr = []
     header_now = []
-    for i in range(5):
+    mvarra = {}
+    mphnarr = {}
+    time_ = ["Morning","Noon","Afternoon","Night","Saturday","Mobile"]
+    for i in range(len(table_header)):
         nowhead = table_header[i].findAll('th')
         header_now.clear()
         #get header names
@@ -52,6 +55,7 @@ def get_data():
                     header_now[1]: row_data[1].text.strip(),
                     header_now[2]: row_data[2].text.strip(),
                     header_now[3]: row_data[3].text.strip(),
+                    "Section": time_[i],
                 }
                 vehichle_arr.append(vehichle_obj)
             elif(len(row_data) == 3):
@@ -59,6 +63,7 @@ def get_data():
                 phone_num_obj = {
                     header_now[1]: row_data[1].text.strip(),
                     header_now[2]: row_data[2].text.strip(),
+                    "Section": time_[i],
                 }
                 phone_num_arr.append(phone_num_obj)
     full_data.append({"bus":vehichle_arr})
@@ -70,3 +75,4 @@ def write_data(s="data.json"):
     fd = get_data()
     json.dump(fd, f)
     f.close()
+
