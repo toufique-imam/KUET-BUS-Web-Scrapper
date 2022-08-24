@@ -1,6 +1,16 @@
 # KUET-BUS-Web-Scrapper_API
 KUET BUS Data Scrapper from [KUET Website](http://www.kuet.ac.bd/index.php/welcome/transportation)
 
+[Iftekher Toufique Imam](https://github.com/toufique-imam)
+
+---
+
+[![GitHub Stars](https://img.shields.io/github/stars/toufique-imam/KUET-BUS-Web-Scrapper?style=social)](https://github.com/toufique-imam/KUET-BUS-Web-Scrapper)
+[![download](https://img.shields.io/github/downloads/toufique-imam/KUET-BUS-Web-Scrapper/total.svg)](https://github.com/toufique-imam/KUET-BUS-Web-Scrapper)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=toufique-imam/KUET-BUS-Web-Scrapper)
+
+---
+
 ## Features
 - Get Bus data
 
